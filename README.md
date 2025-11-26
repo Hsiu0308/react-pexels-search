@@ -2,11 +2,13 @@
 
 這是一個使用 React 開發的圖片搜尋應用程式，串接了 **Pexels API**，讓使用者可以輕鬆搜尋、瀏覽並下載高品質的免版權圖片。本專案旨在練習 React Hooks、API 串接以及 SCSS 樣式模組化開發。
 
+> **🟢 線上展示 (Live Demo)：** [https://react-pexels-search.vercel.app/](https://react-pexels-search.vercel.app/)
+
 ## ✨ 功能特色
 
 - **精選圖片瀏覽**：進入首頁即自動載入 Pexels 的精選攝影作品。
 - **關鍵字搜尋**：透過搜尋框尋找特定主題的圖片。
-- **熱門標籤導引**：提供「大自然」、「科技」、「美食」等熱門關鍵字按鈕，點擊即搜。
+- **熱門標籤導引**：提供「Nature」、「Technology」等熱門關鍵字按鈕，點擊即搜。
 - **更多圖片載入**：點擊「更多圖片」按鈕可分頁載入更多結果。
 - **圖片下載**：每張圖片卡片皆附有「下載圖片」按鈕，點擊即可開啟原圖。
 - **RWD 響應式設計**：支援電腦與手機版面瀏覽。
@@ -25,7 +27,7 @@
 ### 1. 下載專案
 
 ```bash
-git clone [https://github.com/Hsiu0308/react-pexels-search.git]
+git clone [https://github.com/Hsiu0308/react-pexels-search.git](https://github.com/Hsiu0308/react-pexels-search.git)
 cd react-pexels-search
 ```
 
