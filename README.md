@@ -25,8 +25,8 @@
 ### 1. 下載專案
 
 ```bash
-git clone <repository-url>
-cd project
+git clone [https://github.com/Hsiu0308/react-pexels-search.git]
+cd react-pexels-search
 ```
 
 ### 2. 安裝依賴套件
@@ -59,19 +59,18 @@ npm start
 
 📂 專案結構
 
-```
-Plaintext
+```Plaintext
 src/
-├── components/ # 可複用的 UI 元件 (Search, Picture, Footer)
-├── pages/ # 頁面元件 (Homepage, About, Page404)
-├── styles/ # SCSS 樣式檔案
-│ ├── style.scss # 主樣式入口 (使用 @use 匯入其他檔案)
-│ ├── \_nav.scss # 導覽列樣式
-│ ├── \_search.scss # 搜尋區塊樣式
-│ ├── \_picture.scss# 圖片卡片與列表樣式
-│ └── \_footer.scss # 頁尾樣式
-├── App.js # 應用程式主元件與路由設定
-└── index.js # React DOM 渲染入口
+├── components/      # 可複用的 UI 元件 (Search, Picture, Footer)
+├── pages/           # 頁面元件 (Homepage, About, Page404)
+├── styles/          # SCSS 樣式檔案
+│   ├── style.scss   # 主樣式入口 (使用 @use 匯入其他檔案)
+│   ├── _nav.scss    # 導覽列樣式
+│   ├── _search.scss # 搜尋區塊樣式
+│   ├── _picture.scss# 圖片卡片與列表樣式
+│   └── _footer.scss # 頁尾樣式
+├── App.js           # 應用程式主元件與路由設定
+└── index.js         # React DOM 渲染入口
 ```
 
 ## 📝 開發筆記與優化紀錄
