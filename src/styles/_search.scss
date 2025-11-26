@@ -1,0 +1,38 @@
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+
+  input,
+  button {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    outline: none;
+  }
+
+  input {
+    border-radius: 30px 0 0 30px;
+    border-right: none;
+    width: 300px;
+    transition: all 0.3s ease;
+
+    &:focus {
+      border-color: #27ae60;
+    }
+  }
+
+  button {
+    background-color: #27ae60;
+    color: white;
+    border: 1px solid #27ae60;
+    border-radius: 0 30px 30px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: #219150;
+    }
+  }
+}
